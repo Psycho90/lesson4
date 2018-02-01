@@ -347,6 +347,7 @@ ul {
 }
 .content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 25px auto;
 }
@@ -411,7 +412,6 @@ ul {
   flex-wrap: wrap;
   font-family: Verdana;
   max-width: 920px;
-  width: 100%;
   border: 1px solid #cecece;
 }
 .news__product {
@@ -510,6 +510,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+  min-width: 205px;
   position: relative;
 }
 .product__img {
